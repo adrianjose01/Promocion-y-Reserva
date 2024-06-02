@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# Proyecto de Aplicación Web para Promoción y Reserva de Turismo Rural y Ecológico en República Dominicana
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descripción del Proyecto
 
-## Available Scripts
+Este proyecto consiste en el desarrollo de una aplicación web dedicada al medio ambiente en la República Dominicana. La aplicación permitirá a los usuarios obtener permisos para visitar y realizar actividades en áreas protegidas del país. Además, mantendrá a la población informada sobre noticias ambientales relevantes y la disponibilidad de estos lugares protegidos. La app está diseñada para facilitar la interacción entre los ciudadanos y las autoridades ambientales, promoviendo así una gestión más sostenible y accesible de los recursos naturales del país.
 
-In the project directory, you can run:
+## Objetivos Principales
 
-### `npm start`
+1. **Facilitar la Obtención de Permisos:** Crear un sistema que permita a los usuarios solicitar y recibir permisos para actividades en áreas protegidas de manera rápida y eficiente.
+2. **Informar a la Población:** Proveer información actualizada sobre noticias ambientales, cambios en la legislación y eventos relacionados con el medio ambiente.
+3. **Monitorear la Disponibilidad de Áreas Protegidas:** Permitir a los usuarios verificar la disponibilidad y condiciones de las áreas protegidas antes de visitarlas.
+4. **Promover la Educación Ambiental:** Fomentar una mayor conciencia y educación ambiental entre la población a través de la difusión de información relevante y educativa.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Beneficios Esperados
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Acceso Rápido a Permisos:** Los usuarios podrán obtener los permisos necesarios sin demoras innecesarias.
+- **Información Actualizada:** La población tendrá acceso a la información más reciente sobre el estado del medio ambiente y las áreas protegidas.
+- **Optimización de Visitas:** Los usuarios podrán planificar mejor sus visitas a áreas protegidas, asegurándose de que las condiciones sean adecuadas.
+- **Educación y Conciencia:** Aumentar la conciencia ambiental y educar a la población sobre la importancia de conservar los recursos naturales.
 
-### `npm test`
+## Tecnologías Utilizadas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Frontend:** React JS
+- **Control de Versiones:** Git y GitHub
 
-### `npm run build`
+## Instalación
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clona el repositorio:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   git clone https://github.com/adrianjose01/Promocion-y-Reserva
+   cd Promocion-y-Reserva
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Instala las dependencias del frontend:
 
-### `npm run eject`
+   ```bash
+   npm install
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Uso
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Inicia el frontend:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   cd ../frontend
+   npm start
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Abre tu navegador web y ve a `http://localhost:3000` para usar la aplicación.
 
-## Learn More
+## Contribuciones
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Las contribuciones son bienvenidas. Por favor, sigue los siguientes pasos:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Haz un fork del proyecto.
+2. Crea una nueva rama (`git checkout -b feature/nueva-funcionalidad`).
+3. Realiza los cambios necesarios y haz commit (`git commit -am 'Añadir nueva funcionalidad'`).
+4. Sube tus cambios (`git push origin feature/nueva-funcionalidad`).
+5. Abre un Pull Request.
 
-### Code Splitting
+## Licencia
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
 
-### Analyzing the Bundle Size
+## Contacto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Para preguntas o sugerencias, por favor contacta a [20220241@itla.edu.do](mailto:20220241@itla.edu.do).
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+¡Gracias por tu interés en este proyecto y por contribuir a la preservación del medio ambiente en la República Dominicana!
