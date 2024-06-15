@@ -27,18 +27,18 @@ const Homepage = () => {
         <p className="text-sky-900 font-black text-2xl text-center">
           Pasos Para Solicitar Tu Permiso
         </p>
-        <div className="px-3 flex justify-evenly my-10">
+        <div className="px-3 flex justify-center gap-10 my-10">
           <article className="border border-sky-900 rounded-lg p-8 flex flex-col items-center gap-4">
             <p className="bg-sky-900 rounded-full w-10 h-10 flex items-center justify-center text-white font-bold">
               1
             </p>
-            <p className="text-xl max-w-24 text-center">Crea una cuenta</p>
+            <p className="text-2xl max-w-32 text-center">Crea una cuenta</p>
           </article>
           <article className="border border-sky-900 rounded-lg p-8 flex flex-col items-center gap-4">
             <p className="bg-sky-900 rounded-full w-10 h-10 flex items-center justify-center text-white font-bold">
               2
             </p>
-            <p className="text-xl max-w-24 text-center">
+            <p className="text-2xl max-w-32 text-center">
               Selecciona tu lugar turistico
             </p>
           </article>
@@ -46,7 +46,7 @@ const Homepage = () => {
             <p className="bg-sky-900 rounded-full w-10 h-10 flex items-center justify-center text-white font-bold">
               3
             </p>
-            <p className="text-xl max-w-24 text-center">
+            <p className="text-2xl max-w-32 text-center">
               Llena el formulario de solicitud
             </p>
           </article>
@@ -54,7 +54,7 @@ const Homepage = () => {
             <p className="bg-sky-900 rounded-full w-10 h-10 flex items-center justify-center text-white font-bold">
               4
             </p>
-            <p className="text-xl max-w-24 text-center">Solicita el permiso</p>
+            <p className="text-2xl max-w-32 text-center">Solicita el permiso</p>
           </article>
         </div>
       </section>
