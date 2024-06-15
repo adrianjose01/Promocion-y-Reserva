@@ -1,3 +1,4 @@
+
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import imagenRegistro from "../Images/wallpaper.png";
@@ -135,5 +136,6 @@ const RegisterForm = () => {
     </div>
   );
 };
+
 
 export default RegisterForm;
