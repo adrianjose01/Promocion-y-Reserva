@@ -27,7 +27,7 @@ const Homepage = () => {
         <p className="text-sky-900 font-black text-2xl text-center">
           Pasos Para Solicitar Tu Permiso
         </p>
-        <div className="px-3 flex justify-center gap-10 my-10">
+        <div className="px-3 flex flex-col md:flex-row justify-center gap-10 my-10">
           <article className="border border-sky-900 rounded-lg p-8 flex flex-col items-center gap-4">
             <p className="bg-sky-900 rounded-full w-10 h-10 flex items-center justify-center text-white font-bold">
               1
@@ -58,9 +58,9 @@ const Homepage = () => {
           </article>
         </div>
       </section>
-      <section className="flex items-center justify-around my-20 px-3">
+      <section className="flex flex-col md:flex-row gap-4 md:gap-0 items-center justify-around my-20 px-3">
         <div>
-          <img className="w-96" src={imageExperience} />
+          <img className="w-96" src={imageExperience} alt="Experience" />
         </div>
         <div className="flex flex-col items-center gap-5">
           <p className="text-sky-900 font-black text-2xl text-center">

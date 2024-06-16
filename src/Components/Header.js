@@ -1,31 +1,54 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../Images/logo.jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars, faX } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  function onToggleMenu() {
+    setIsMenuOpen((prev) => !prev);
+  }
+
   return (
     <header>
       <nav className="flex items-center justify-between mx-10 my-3">
         <Link to="/">
           <img className="w-16 h-16" src={logo} alt="Logo" />
         </Link>
-        <ul className="flex gap-5 items-center">
-          <Link to="/sobre-nosotros" className="font-bold text-base">
-            Sobre Nosotros
-          </Link>
-          <Link to="/lugares-turisticos" className="font-bold text-base">
-            Lugares Turisticos
-          </Link>
-          <Link to="/iniciar-sesion" className="font-bold text-base">
-            Iniciar Sesion
-          </Link>
-          <Link
-            to="/registrarse"
-            className="py-2 px-4 bg-sky-900 text-white rounded-lg"
+        <div>
+          <div className="text-center md:hidden">
+            <button onClick={onToggleMenu}>
+              {isMenuOpen ? (
+                <FontAwesomeIcon icon={faX} size="32" />
+              ) : (
+                <FontAwesomeIcon icon={faBars} size="32" />
+              )}
+            </button>
+          </div>
+          <ul
+            className={`gap-5 flex-col items-center m-10 ${
+              isMenuOpen ? "flex" : "hidden"
+            } md:flex md:flex-row md:m-0`}
           >
-            Registrarme
-          </Link>
-        </ul>
+            <Link to="/sobre-nosotros" className="font-bold text-base">
+              Sobre Nosotros
+            </Link>
+            <Link to="/lugares-turisticos" className="font-bold text-base">
+              Lugares Turisticos
+            </Link>
+            <Link to="/iniciar-sesion" className="font-bold text-base">
+              Iniciar Sesion
+            </Link>
+            <Link
+              to="/registrarse"
+              className="py-2 px-4 bg-sky-900 text-white rounded-lg"
+            >
+              Registrarme
+            </Link>
+          </ul>
+        </div>
       </nav>
     </header>
   );

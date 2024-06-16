@@ -38,7 +38,7 @@ const RegisterForm = () => {
           </div>
 
           <h2 className="text-3xl font-extrabold mb-5 text-sky-900">
-            Crea tu cuenta gratis
+            Inicia con tu cuenta
           </h2>
 
           <div className="mb-4  ">
@@ -56,20 +56,6 @@ const RegisterForm = () => {
               <FontAwesomeIcon icon={faGoogle} className="mr-2" />
               Google
             </button>
-          </div>
-
-          <p className="mb-4">Crea una cuenta con tu correo electrónico</p>
-
-          <div className="mb-2">
-            <input
-              type="text"
-              {...register("nombre", { required: true })}
-              className="w-80 p-2 bg-gray-200 rounded-lg mt-2"
-              placeholder="Nombre completo"
-            />
-            {errors.nombre && (
-              <span className="text-red-500">Este campo es obligatorio</span>
-            )}
           </div>
 
           <div className="mb-2">
@@ -101,22 +87,17 @@ const RegisterForm = () => {
             )}
           </div>
 
-          <div className="mb-1">
-            <input
-              type="text"
-              {...register("cedula", { required: true })}
-              className="w-80 p-2 bg-gray-200 border rounded-lg mt-2"
-              placeholder="Cédula"
-            />
-            {errors.cedula && (
-              <span className="text-red-500">Este campo es obligatorio</span>
-            )}
-          </div>
+          <p className="">
+            No tienes una cuenta?{" "}
+            <Link to="/registrarse" className="text-blue-500">
+              Registrate aquí.
+            </Link>
+          </p>
 
           <p className="mb-6">
-            Si ya tienes una cuenta,{" "}
-            <Link to="/iniciar-sesion" className="text-blue-500">
-              inicia sesión aquí.
+            Olvidaste tu contraseña?{" "}
+            <Link to="/registrarse" className="text-blue-500">
+              Haz click aquí.
             </Link>
           </p>
 
@@ -125,7 +106,7 @@ const RegisterForm = () => {
               type="submit"
               className="w-80 py-2 bg-sky-900 text-white font-bold rounded-lg drop-shadow-2xl"
             >
-              Registrarme
+              iniciar sesion
             </button>
           </div>
         </form>
