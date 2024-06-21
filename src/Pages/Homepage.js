@@ -13,7 +13,7 @@ const Homepage = () => {
         className="flex h-[80vh] w-full bg-no-repeat bg-cover items-center justify-center flex-col gap-4 px-3"
         style={{ backgroundImage: `url(${background})` }}
       >
-        <h1 className="text-white font-black text-5xl text-center">
+        <h1 className="text-white font-black text-3xl md:text-7xl text-center">
           Conoce Los Mejores Lugares Turisticos de Republica Dominicana
         </h1>
         <Link
